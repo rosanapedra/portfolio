@@ -1,0 +1,35 @@
+.contato {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.contato .container {
+    padding: 5rem 0;
+}
+
+.contato h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-normal);
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.contato .container p {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.contato .container img {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+
+.contato .container small {
+    font-size: 80%;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}

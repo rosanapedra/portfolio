@@ -1,0 +1,114 @@
+.home .full-screen {
+    min-height: 86vh;
+    padding: 50px 0;
+}
+
+.home .texto-home {
+    letter-spacing: 2px;
+}
+
+.home .texto-home,
+.home .img-home {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.home .img-home .img-box {
+    max-width: 450px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgb(254, 240, 138), rgb(251, 207, 232), rgb(244, 114, 182));
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 2s, 3s;
+}
+
+@keyframes zoomIn{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-24px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.home .img-home .img-box img {
+    width: 100%;
+    border-radius: 50%;
+    border: 20px solid transparent;
+}
+
+.home .texto-home p {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-grande);
+    margin-bottom: 10px;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home .texto-home h1 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-gigante);
+    font-weight: 700;
+    margin-bottom: 20px;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.home .texto-home h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-grande);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+    color: var(--cor-primaria);
+}
+
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media(max-width: 1280px) {
+    .home .texto-home,
+    .home .img-home {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: var(--mobile-padding);
+    }
+}
