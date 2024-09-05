@@ -22,7 +22,7 @@
 
 ### Captura de tela
 
-![video](https://github.com/user-attachments/assets/c7f82b94-0d43-43e0-a0e1-858774b4d32d)
+![image](https://github.com/user-attachments/assets/9b309e3c-0342-44c9-97e2-07eccda15a4b)
 
 ### Links
 
