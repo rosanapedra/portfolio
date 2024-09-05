@@ -27,7 +27,7 @@
 ### Links
 
 - Link do repositório: [portfólio](https://github.com/rosanapedra/portfolio.git)
-- Deploy: [Front](https://rosanapedra.github.io/portfolio/)
+- Deploy: [Link](https://rosanapedra.github.io/portfolio/)
 
 ## Meu processo
 
