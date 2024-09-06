@@ -1,5 +1,7 @@
 # Meu portfólio
 
+Neste projeto tem uma seção de boas vindas, outra seção sobre mim, habilidades, projetos e contato. 
+
 ## Índice
 
 - [Visão geral](#visão-geral)
